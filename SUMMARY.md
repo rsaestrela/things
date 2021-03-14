@@ -1,7 +1,6 @@
 # Table of contents
 
-* [Initial page](README.md)
-* [Test](untitled.md)
+* [Hi](README.md)
 
 ## clean-arch-takeaways
 
@@ -10,3 +9,4 @@
 * [Part 3](clean-arch-takeaways/part-3.md)
 * [Part-4](clean-arch-takeaways/part-4.md)
 * [Part-5](clean-arch-takeaways/part-5.md)
+

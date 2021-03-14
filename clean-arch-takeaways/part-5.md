@@ -24,17 +24,17 @@ p149 - _"Conway's law: Any organisation that designs a system will produce a des
 
 p151 - _"A good architecture makes the system easy to change, in all the ways that it must change, by leaving options open."_
 
-### Decoupling
+## Decoupling
 
 p152 - _"A good architecture leaves options open. The decoupling mode is one of those options."_
 
 p155 - _"A good architecture will allow a system to be born as a monolith, deployed in a single file, but then to grow into a set of independently deployable units, and then all the way to indenpendent server and/or micro-services. Later, as things change, it should allow for reversion that progression and sliding all the way back into a monolith."_
 
-### Duplication
+## Duplication
 
 p155 - _"Be careful. Resist the temptation to commit the sin of skee-jerk the elimination of duplication. Make sure the duplication is real."_
 
-### Boundaries: drawing lines
+## Boundaries: drawing lines
 
 p160 - _"Software architecture is the art of drawing lines that I call boundaries."_
 
