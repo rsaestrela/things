@@ -20,7 +20,9 @@
 * [Java 13](java/java-13.md)
 * [Java 14](java/java-14.md)
 * [Java 15](java/java-15.md)
+* [Changelog](java/changelog.md)
 * [Memory and GC](java/memory-and-gc.md)
 * [Code Execution JVM](java/code-execution-jvm.md)
 * [AOT and JIT Compilation](java/aot-and-jit-compilation.md)
+* [JVM Profiling](java/jvm-profiling.md)
 
