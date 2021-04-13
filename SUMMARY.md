@@ -16,6 +16,7 @@
 * [Buildpacks with Paketo](articles/untitled.md)
 * [Threading for Performance](articles/threading-for-performance.md)
 * [Type Inference in Java](articles/type-inference-in-java.md)
+* [How interesting was CMS GC](articles/how-interesting-was-cms-gc.md)
 
 ## java
 
