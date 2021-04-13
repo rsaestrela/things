@@ -22,4 +22,5 @@
 * [Java 15](java/java-15.md)
 * [Memory and GC](java/memory-and-gc.md)
 * [Code Execution JVM](java/code-execution-jvm.md)
+* [AOT and JIT Compilation](java/aot-and-jit-compilation.md)
 
