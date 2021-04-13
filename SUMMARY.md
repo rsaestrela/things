@@ -17,6 +17,7 @@
 * [Threading for Performance](articles/threading-for-performance.md)
 * [Type Inference in Java](articles/type-inference-in-java.md)
 * [How interesting was CMS GC](articles/how-interesting-was-cms-gc.md)
+* [GitHub Actions & Java - Part 1](articles/github-actions-and-java-part-1.md)
 
 ## java
 
