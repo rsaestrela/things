@@ -20,3 +20,7 @@
 * [JVM Profiling](java/jvm-profiling.md)
 * [Code Review Standards](java/code-review-standards.md)
 
+## presentations
+
+* [L&L - Java 2020 - Structure](presentations/l-and-l-java-2020-structure.md)
+
