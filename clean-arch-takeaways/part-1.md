@@ -1,5 +1,5 @@
 ---
-description: Takeways from "Robert C. Martin - Clean Architecture" Part 1
+description: Personal takeways from "Robert C. Martin - Clean Architecture" Part 1
 ---
 
 # Part 1
