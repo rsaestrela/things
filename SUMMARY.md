@@ -18,4 +18,5 @@
 * [AOT and JIT Compilation](java/aot-and-jit-compilation.md)
 * [Concurrency](java/concurrency.md)
 * [JVM Profiling](java/jvm-profiling.md)
+* [Code Review Standards](java/code-review-standards.md)
 
