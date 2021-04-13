@@ -1,7 +1,7 @@
 ---
 description: >-
-  Java Memory and GC notes. Mostly taken from "Optimizing Java" from Benjamin J.
-  Evans, Chris Newland and James Gough
+  Personal notes on JVM memory management. Mostly taken from "Optimizing Java"
+  from Benjamin J. Evans, Chris Newland and James Gough
 ---
 
 # Memory and GC
