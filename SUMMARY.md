@@ -16,5 +16,6 @@
 * [Memory and GC](java/memory-and-gc.md)
 * [Code Execution JVM](java/code-execution-jvm.md)
 * [AOT and JIT Compilation](java/aot-and-jit-compilation.md)
+* [Concurrency](java/concurrency.md)
 * [JVM Profiling](java/jvm-profiling.md)
 
