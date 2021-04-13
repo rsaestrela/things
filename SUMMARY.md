@@ -20,4 +20,5 @@
 * [Java 13](java/java-13.md)
 * [Java 14](java/java-14.md)
 * [Java 15](java/java-15.md)
+* [Memory and GC](java/memory-and-gc.md)
 
