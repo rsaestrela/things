@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Howdy, partner!](README.md)
+* [Intro](README.md)
 
 ## clean-arch-takeaways
 
