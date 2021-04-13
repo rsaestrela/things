@@ -12,6 +12,7 @@
 
 ## articles
 
+* [Demystifying Thread Safety](articles/demystifying-thread-safety.md)
 * [Buildpacks with Paketo](articles/untitled.md)
 * [Threading for Performance](articles/threading-for-performance.md)
 
