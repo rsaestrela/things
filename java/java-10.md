@@ -2,7 +2,7 @@
 
 Release type: non-LTS - March 2018 - September 2018
 
-### Features
+## Features
 
 * Local-variable type inference \(JEP 286\)
 * Experimental Java-based JIT compiler. This is the integration of the Graal dynamic compiler for the Linux x64 platform \(JEP 317\)
@@ -15,5 +15,5 @@ Release type: non-LTS - March 2018 - September 2018
 * Thread-local handshakes \(JEP 312\)
 * Heap allocation on alternative memory devices \(JEP 316\)
 * Remove the native-header generation tool \(JEP 313\)
-* Consolidate the JDK forest into a single repository \(JEP 296)
+* Consolidate the JDK forest into a single repository \(JEP 296\)
 

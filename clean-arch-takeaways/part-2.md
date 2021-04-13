@@ -1,3 +1,7 @@
+---
+description: Takeways from "Robert C. Martin - Clean Architecture" Part 2
+---
+
 # Part 2
 
 ## Paradigm Overview

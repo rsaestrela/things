@@ -1,3 +1,7 @@
+---
+description: Takeways from "Robert C. Martin - Clean Architecture" Part 1
+---
+
 # Part 1
 
 ## Goal of Software Architecture

@@ -2,7 +2,7 @@
 
 Release type: LTS - September 2018 - September 2023
 
-### Features
+## Features
 
 * Dynamic class-file constants \(JEP 309\)
 * Epsilon: a no-op garbage collector \(experimental\) \(JEP 318\)
@@ -16,3 +16,4 @@ Release type: LTS - September 2018 - September 2023
 * Deprecated the Nashorn JavaScript engine \(JEP 335\)
 * Unicode 10.0.0 support \(while current version is Unicode 11.0.0, it's only in Java 12\)
 * A number of features from previous releases were dropped; in particular, Java applets and Java Web Start are no longer available.
+

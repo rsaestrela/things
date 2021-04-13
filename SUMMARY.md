@@ -7,7 +7,7 @@
 * [Part 1](clean-arch-takeaways/part-1.md)
 * [Part 2](clean-arch-takeaways/part-2.md)
 * [Part 3](clean-arch-takeaways/part-3.md)
-* [Part-4](clean-arch-takeaways/part-4.md)
+* [Part 4](clean-arch-takeaways/part-4.md)
 * [Part-5](clean-arch-takeaways/part-5.md)
 
 ## java
@@ -20,3 +20,4 @@
 * [Java 13](java/java-13.md)
 * [Java 14](java/java-14.md)
 * [Java 15](java/java-15.md)
+

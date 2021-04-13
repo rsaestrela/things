@@ -1,3 +1,7 @@
+---
+description: Takeways from "Robert C. Martin - Clean Architecture" Part 3
+---
+
 # Part 3
 
 p58 - _"The SOLID principles tell us how to arrange our functions and data structures into classes, and how those classes should be interconnected. \(...\) The use of word "class" does not imply that these principles are applicable only to object-oriented software."_
