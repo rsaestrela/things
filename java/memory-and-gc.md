@@ -1,3 +1,9 @@
+---
+description: >-
+  Java Memory and GC notes. Mostly taken from "Optimizing Java" from Benjamin J.
+  Evans, Chris Newland and James Gough
+---
+
 # Memory and GC
 
 ### GC
@@ -108,7 +114,7 @@ In Java, array are objects. This means that the JVM arrays are represented as _o
 
 #### GC Roots are Arenas
 
-GC roots are anchors points for memory, essentially known pointers that originate from outside a memory pool of interest and point into it. They are external pointers as opposed to internal pointers, which originate inside the memory pool and point to another memory location withing the memory pool.
+GC roots are anchors points for memory, essentially known pointers that originate from outside a memory pool of interest and point into it. They are external pointers as opposed to internal pointers, which originate inside the memory pool and point to another memory location within the memory pool.
 
 The HotSpot garbage collector works in terms of areas of memory called _Arenas_. 
 
@@ -263,7 +269,7 @@ The high-level picture of G1 is that:
 
 While warming up, the collector keeps track of the statistics of how many typical regions can be collected per GC duty cycle. G1 still has a concept of a young generation made up of Eden and survivor regions, but of course, this regions are not contiguous. The size of the young generation is adaptive and is based on the overall pause time goal.
 
-The G1 collector has a feature to help with region tracking. The _Remembered Sets_ \(usually called _RSets_\)   as per-region entries that track outside references that point into a heap region. This means that instead of tracing though the entire heap for references that point into a region, G1 just needs to examine the RSets an than scan those regions for references.Both RSets and card tables are approaches that can help with a GC problem called _floating garbage._
+The G1 collector has a feature to help with region tracking. The _Remembered Sets_ \(usually called _RSets_\)   as per-region entries that track outside references that point into a heap region. This means that instead of tracing though the entire heap for references that point into a region, G1 just needs to examine the RSets an than scan those regions for references. Both RSets and card tables are approaches that can help with a GC problem called _floating garbage._
 
 #### Floating Garbage
 
@@ -319,7 +325,7 @@ Zing doesn't use a Brooks pointer. Zing's object header is a single 64 bit word 
 
 #### Self Healing Barrier
 
-To avoid load references to objects that might have been relocated, the Brooks pointer \(Shenandoah\) is used to keep track of this new location. LVB in Zing avoids this pattern by providing a solution where every loaded reference is pointing directly at the current location of the object as soon as the load has completed.This means that each reference is updated at most once, and if the reference is never used again, no work is done to keep it up to date. As well as the header, Zing's object references use some of the bits of the reference to indicate metadata about the GC state of the object. This saves some space by using bits of the reference itself, rather than bit of the single header word.
+To avoid load references to objects that might have been relocated, the Brooks pointer \(Shenandoah\) is used to keep track of this new location. LVB in Zing avoids this pattern by providing a solution where every loaded reference is pointing directly at the current location of the object as soon as the load has completed. This means that each reference is updated at most once, and if the reference is never used again, no work is done to keep it up to date. As well as the header, Zing's object references use some of the bits of the reference to indicate metadata about the GC state of the object. This saves some space by using bits of the reference itself, rather than bit of the single header word.
 
 ```text
 struct Reference {
