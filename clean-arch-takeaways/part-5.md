@@ -1,4 +1,8 @@
-# Part-5
+---
+description: Takeways from "Robert C. Martin - Clean Architecture" Part 5
+---
+
+# Part 5
 
 p136 - _"The word "architecture" conjures visions of power and mystery."_
 
