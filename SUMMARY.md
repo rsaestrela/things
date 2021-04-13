@@ -23,4 +23,5 @@
 ## presentations
 
 * [L&L - Java 2020 - Structure](presentations/l-and-l-java-2020-structure.md)
+* [L&L - Java 2020 - Mixed Content](presentations/l-and-l-java-2020-mixed-content.md)
 
